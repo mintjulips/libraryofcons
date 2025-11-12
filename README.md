@@ -4,7 +4,9 @@ It’s the library of cons.
 Library of Cons delivers the latest news and gossip weekly on con artists, cyber alerts, scammers, and security-compromising software bugs, to shine some light on the darker side of humanity. I have a newsletter that comes out every Monday. Subscribe at <a href="https://libraryofcons.substack.com/">Substack</a>. <br><br>
 
 ## Previous issues<br>
-<a href="https://open.substack.com/pub/libraryofcons/p/library-of-cons-6-were-building-newer?r=6htr8j&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true">Library of Cons #6: We're building newer and better ways for you to protect your digital identity from theft & leaks</a><br>
+<a href="https://libraryofcons.substack.com/p/library-of-cons-8-industrialized">Library of Cons #8: Industrialized scam centers found operating around the world</a>
+<a href="https://libraryofcons.substack.com/p/library-of-cons-7-financial-fraud">Library of Cons #7: Financial fraud is the most common cause of identity theft</a>
+  <a href="https://open.substack.com/pub/libraryofcons/p/library-of-cons-6-were-building-newer?r=6htr8j&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true">Library of Cons #6: We're building newer and better ways for you to protect your digital identity from theft & leaks</a><br>
 <a href="https://libraryofcons.substack.com/p/library-of-cons-5-history-and-future">Library of Cons #5: History & Future of Phishing</a><br>
 <a href="https://libraryofcons.substack.com/p/resilience-is-a-virtue"> Library of Cons #4: Resilience is a Virtue & the Government Shutdown</a><br>
 <a href="https://libraryofcons.substack.com/p/what-data"> Library of Cons #3: what data</a><br>
