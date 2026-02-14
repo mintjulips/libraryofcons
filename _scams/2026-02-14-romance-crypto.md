@@ -4,6 +4,9 @@ type: romance
 date: 2026-02-14
 location: global
 tags: [pig-butchering, crypto, dating-app]
+terms:
+  - pig butchering
+  - money mule
 ---
 
 **pattern:** fast intimacy → “investment tips” → fake platform.
