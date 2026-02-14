@@ -13,3 +13,12 @@ title: scam library
   </li>
 {% endfor %}
 </ul>
+
+title: libraryofcons
+markdown: kramdown
+permalink: pretty
+
+collections:
+  scams:
+    output: true
+    permalink: /scams/:name/
