@@ -1,62 +1,100 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/site.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} · {{ site.title }}</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 
 <body>
 
-<header style="padding:10px; border-bottom:1px solid #ccc;">
-  <h1><a href="/">Library of Cons</a></h1>
-</header>
+  <!-- HEADER -->
+  <header class="top">
+    <div class="brand">
+      <a href="{{ '/' | relative_url }}">library of cons</a>
+    </div>
 
-<div style="display:grid; grid-template-columns: 220px 1fr 220px; gap:20px; padding:20px;">
+    <nav class="meta">
+      <a href="{{ '/scams/' | relative_url }}">scam library</a>
+      <a href="{{ '/dictionary/' | relative_url }}">dictionary</a>
+      <a href="{{ '/prevention/' | relative_url }}">prevention</a>
+      <a href="{{ '/resources/' | relative_url }}">resources</a>
+    </nav>
+  </header>
 
-  <!-- LEFT SIDEBAR -->
-  <aside>
-    <h3>dictionary</h3>
-    <ul>
-      <li><a href="/dictionary/">common terms</a></li>
-    </ul>
+  <!-- MAIN GRID -->
+  <main class="wrap">
+    <div class="grid">
 
-    <h3>types of scams</h3>
-    <ul>
-      <li><a href="/scams/romance/">romance</a></li>
-      <li><a href="/scams/job/">job scams</a></li>
-    </ul>
+      <!-- LEFT SIDEBAR -->
+      <aside class="sidebar">
 
-    <h3>prevention</h3>
-    <ul>
-      <li><a href="/prevention/">how to stay safe</a></li>
-    </ul>
+        <div class="box">
+          <h3>types of scams</h3>
+          <ul>
+            <li><a href="{{ '/scams/' | relative_url }}">all scams</a></li>
+            <li><a href="{{ '/scams/romance/' | relative_url }}">romance</a></li>
+            <li><a href="{{ '/scams/job/' | relative_url }}">job</a></li>
+            <li><a href="{{ '/scams/crypto/' | relative_url }}">crypto</a></li>
+            <li><a href="{{ '/scams/impersonation/' | relative_url }}">impersonation</a></li>
+          </ul>
+        </div>
 
-    <h3>resources</h3>
-    <ul>
-      <li><a href="/resources/">what to do if scammed</a></li>
-    </ul>
+        <div class="box">
+          <h3>dictionary</h3>
+          <ul>
+            <li><a href="{{ '/dictionary/' | relative_url }}">common terms</a></li>
+          </ul>
+        </div>
 
-    <h3>family resources</h3>
-    <ul>
-      <li><a href="/family/">help for families</a></li>
-    </ul>
-  </aside>
+        <div class="box">
+          <h3>prevention</h3>
+          <ul>
+            <li><a href="{{ '/prevention/' | relative_url }}">how to stay safe</a></li>
+          </ul>
+        </div>
 
-  <!-- MAIN CONTENT -->
-  <main>
-    {{ content }}
+        <div class="box">
+          <h3>resources</h3>
+          <ul>
+            <li><a href="{{ '/resources/' | relative_url }}">what to do if scammed</a></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>family resources</h3>
+          <ul>
+            <li><a href="{{ '/family/' | relative_url }}">help for families</a></li>
+          </ul>
+        </div>
+
+      </aside>
+
+      <!-- CENTER CONTENT -->
+      <section class="content">
+        {{ content }}
+      </section>
+
+      <!-- RIGHT SIDEBAR -->
+      <aside class="sidebar">
+
+        <div class="box">
+          <h3>latest news</h3>
+          <ul>
+            <li><a href="{{ '/news/' | relative_url }}">latest updates</a></li>
+          </ul>
+        </div>
+
+      </aside>
+
+    </div>
+
+    <footer class="foot">
+      <small>© {{ site.time | date: "%Y" }} library of cons</small>
+    </footer>
   </main>
-
-  <!-- RIGHT SIDEBAR -->
-  <aside>
-    <h3>latest news</h3>
-    <ul>
-      <li><a href="/news/">latest updates</a></li>
-    </ul>
-  </aside>
-
-</div>
 
 </body>
 </html>
