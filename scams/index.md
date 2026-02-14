@@ -5,14 +5,15 @@ title: scam library
 
 ## newest postings
 
+<div>
+
 <label for="typeFilter" class="meta">filter:</label>
 <select id="typeFilter">
-  <option value="all">all</option>
-  {% assign types = site.scams | map: "type" | uniq | sort %}
-  {% for t in types %}
-    <option value="{{ t }}">{{ t }}</option>
-  {% endfor %}
+  <option value="all">all</option>{% assign types = site.scams | map: "type" | uniq | sort %}{% for t in types %}
+  <option value="{{ t }}">{{ t }}</option>{% endfor %}
 </select>
+
+</div>
 
 <ul class="dir" id="scamList">
 {% assign items = site.scams | sort: "date" | reverse %}
