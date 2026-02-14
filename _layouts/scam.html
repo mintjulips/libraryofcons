@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% assign dict = site.dictionary %}
+
+{% if page.terms %}
+  <div class="box">
+    <h3>terms mentioned</h3>
+    <ul class="dir">
+      {% for t in page.terms %}
+        {% assign match = dict | where: "term", t | first %}
+        {% if match %}
+          <li><a href="{{ match.url | relative_url }}">{{ t }}</a></li>
+        {% else %}
+          <li>{{ t }}</li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+{{ content }}
