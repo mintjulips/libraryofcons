@@ -2,6 +2,7 @@
 title: "romance + crypto (pig butchering) — dating app → exchange"
 type: romance
 date: 2026-02-14
+layout: scam
 location: global
 tags: [pig-butchering, crypto, dating-app]
 terms:
