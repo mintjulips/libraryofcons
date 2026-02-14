@@ -3,10 +3,11 @@ layout: default
 title: home
 ---
 
-## scam library
+## library of cons
 
-- [Romance scams](/scams/romance/)
-- [Job scams](/scams/job/)
-- [Crypto scams](/scams/crypto/)
-
-Welcome to the library of scams.
+- [scam library](/libraryofcons/scams/)
+- [dictionary](/libraryofcons/dictionary/)
+- [prevention](/libraryofcons/prevention/)
+- [what to do if scammed](/libraryofcons/resources/)
+- [family resources](/libraryofcons/family/)
+- [latest news](/libraryofcons/news/)
