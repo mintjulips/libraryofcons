@@ -1,12 +1,17 @@
+
 ---
 layout: default
-title: home
+title: scam library
 ---
 
-## scam library
+## newest postings
 
-- [Romance scams](/scams/romance/)
-- [Job scams](/scams/job/)
-- [Crypto scams](/scams/crypto/)
-
-Welcome to the library of scams.
+<ul class="dir">
+{% assign items = site.scams | sort: "date" | reverse %}
+{% for scam in items limit: 80 %}
+  <li>
+    <a href="{{ scam.url | relative_url }}">{{ scam.title }}</a>
+    <span class="meta">({{ scam.type }} · {{ scam.date | date: "%b %d, %Y" }})</span>
+  </li>
+{% endfor %}
+</ul>
