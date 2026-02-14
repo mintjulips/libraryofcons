@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+
+<body>
+
+<header style="padding:10px; border-bottom:1px solid #ccc;">
+  <h1><a href="/">Library of Cons</a></h1>
+</header>
+
+<div style="display:grid; grid-template-columns: 220px 1fr 220px; gap:20px; padding:20px;">
+
+  <!-- LEFT SIDEBAR -->
+  <aside>
+    <h3>dictionary</h3>
+    <ul>
+      <li><a href="/dictionary/">common terms</a></li>
+    </ul>
+
+    <h3>types of scams</h3>
+    <ul>
+      <li><a href="/scams/romance/">romance</a></li>
+      <li><a href="/scams/job/">job scams</a></li>
+    </ul>
+
+    <h3>prevention</h3>
+    <ul>
+      <li><a href="/prevention/">how to stay safe</a></li>
+    </ul>
+
+    <h3>resources</h3>
+    <ul>
+      <li><a href="/resources/">what to do if scammed</a></li>
+    </ul>
+
+    <h3>family resources</h3>
+    <ul>
+      <li><a href="/family/">help for families</a></li>
+    </ul>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- RIGHT SIDEBAR -->
+  <aside>
+    <h3>latest news</h3>
+    <ul>
+      <li><a href="/news/">latest updates</a></li>
+    </ul>
+  </aside>
+
+</div>
+
+</body>
+</html>
