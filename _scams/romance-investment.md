@@ -1,6 +1,7 @@
 ---
 title: Romance Investment Scam
 type: romance
+layout: scam
 region: global
 tags: [pig-butchering, crypto, emotional-manipulation]
 red_flags:
