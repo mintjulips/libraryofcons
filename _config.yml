@@ -6,3 +6,7 @@ collections:
   scams:
     output: true
     permalink: /scams/:name/
+
+  dictionary:
+    output: true
+    permalink: /dictionary/:name/
