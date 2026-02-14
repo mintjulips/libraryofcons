@@ -1,5 +1,4 @@
 
----
 layout: page
 title: Identity Theft Guide
 permalink: /resources/identity-theft-guide/
