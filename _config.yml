@@ -1,1 +1,5 @@
 title: Library of Cons
+collections:
+  scams:
+    output: true
+    permalink: /scams/:name/
