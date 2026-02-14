@@ -10,3 +10,8 @@ collections:
   dictionary:
     output: true
     permalink: /dictionary/:name/
+
+collections:
+  resources:
+    output: true
+    permalink: /resources/:name/
