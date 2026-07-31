@@ -1,7 +1,15 @@
 # libraryofcons
 It’s the library of cons.
 
-Library of Cons delivers the latest news and gossip weekly on con artists, cyber alerts, scammers, and security-compromising software bugs, to shine some light on the darker side of humanity. I have a newsletter that comes out every Monday. Subscribe at <a href="https://libraryofcons.substack.com/">Substack</a>. <br><br>
+**Library of Cons** is a living library of scams, fraud, cybercrime, and the people working to stop them. Each week, editor and self-described **"Scam Librarian"** Julia Lipscomb catalogs the latest scam news, cybersecurity research, fraud alerts, and anti-scam education, alongside the cultural context, internet oddities, and human stories that algorithms often miss.<br><br>
+
+Part newsroom, part research archive, and part digital zine, **Library of Cons** helps readers recognize emerging threats, understand how scams evolve, and build practical digital literacy.<br><br>
+
+Library of Cons is published for educational and informational purposes. While every effort is made to verify sources, readers are encouraged to conduct their own due diligence when evaluating claims, products, services, and security advice.<br><br>
+
+**Join Library of Cons in cataloguing cons and helping make scams easier to spot.**<br><br>
+
+Subscribe at <a href="https://libraryofcons.substack.com/">Substack</a>. <br><br>
 
 ## Previous issues<br>
 <a href="https://libraryofcons.substack.com/p/library-of-cons-8-industrialized">Library of Cons #8: Industrialized scam centers found operating around the world</a><br>
@@ -17,5 +25,11 @@ Library of Cons delivers the latest news and gossip weekly on con artists, cyber
 ## Read the Library of Cons Wiki!<br>
 <a href="https://github.com/mintjulips/libraryofcons/wiki">Welcome page</a><br>
 <a href="https://github.com/mintjulips/libraryofcons/wiki/Resources">Resources</a><br><br>
+
+## About the author!<br>
+Julia Lipscomb is the founder and editor of **Library of Cons**. A former zine librarian at ABC No Rio Zine Library in New York and ZAPP in Seattle, she brings a DIY library ethos to documenting one of the internet's fastest-moving subjects: scams.
+
+As the publication's **Scam Librarian**, Julia curates news, research, fraud investigations, cybersecurity developments, and internet culture into an accessible public archive designed to help people better understand how scams work and how to avoid becoming their next target.
+
 
 <i>Obligatory disclaimer: The information contained is for educational purposes. I strongly suggest you do your own careful research before acting on any ideas shared here. Make sure to check current market facts, look at different expert opinions, speak to a trusted financial advisor, and think about your own money goals and how much risk you can handle.</i><br><br>
